@@ -21,8 +21,7 @@ class Blog extends Component {
                         author: 'Fakhri'
                     }
                 })
-                this.setState({posts: updatedPosts})
-                console.log(response);
+                this.setState({posts: updatedPosts});
             })
             .catch(err => {
                 this.setState({error: true})
